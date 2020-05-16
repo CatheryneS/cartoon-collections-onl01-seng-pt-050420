@@ -20,3 +20,5 @@ def find_the_cheese(foods)
     foods.each do |cheese|
       if foods.include?(cheese)
         result = cheese
+        break
+        
