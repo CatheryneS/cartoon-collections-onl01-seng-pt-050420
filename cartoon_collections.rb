@@ -21,5 +21,5 @@ def find_the_cheese(foods)
       if foods.include?(cheese)
         result = cheese
         break
-    end
+      end
   end
