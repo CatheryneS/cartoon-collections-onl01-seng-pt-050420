@@ -22,4 +22,5 @@ def find_the_cheese(foods)
         result = cheese
         break
       end
+      results
   end
