@@ -16,8 +16,8 @@ end
 
 def find_the_cheese(foods)
   cheese = ["cheddar", "gouda", "camembert"]
-  results = foods.each do |cheese| 
-    results.push foods.include?(cheese)
+  results = foods.each do |item| 
+    item.include?(cheese)
     end
     results
 end
