@@ -23,5 +23,4 @@ def find_the_cheese(foods)
         break
       end
     end
-      results
   end
