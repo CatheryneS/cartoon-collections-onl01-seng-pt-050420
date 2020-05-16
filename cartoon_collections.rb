@@ -19,5 +19,4 @@ def find_the_cheese(foods)
   results = foods.each do |cheese| 
     foods.include?(cheese)
     end
-  results
 end
